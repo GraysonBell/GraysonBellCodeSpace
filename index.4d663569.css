@@ -63,12 +63,12 @@ h3 {
 p {
   margin-bottom: 0;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 450;
   line-height: 1.5;
 }
 
 p.large {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 p.small {
@@ -80,6 +80,7 @@ hr {
 }
 
 li {
+  font-weight: 600;
   line-height: 1.7;
 }
 
@@ -89,6 +90,7 @@ li::marker {
 
 a {
   color: #000;
+  font-size: 20px;
   text-decoration: none;
 }
 
@@ -105,7 +107,7 @@ a:hover {
 
 .container .box {
   text-align: center;
-  border: 1px solid #ccc;
+  border: 5px solid #000;
   border-radius: 10px;
   flex-direction: column;
   justify-content: flex-start;
