@@ -35,7 +35,7 @@ const Footer = (props) => {
     linkedIn,
     medium,
     name,
-    primaryColor,
+    // primaryColor,
     twitter,
     youTube,
   } = props;
@@ -50,7 +50,7 @@ const Footer = (props) => {
         gap: "2.5rem",
         padding: "5rem 0 3rem",
         backgroundColor: "#FF8400",
-        width: "100vw"
+        width: "100vw",
       }}
     >
       <div
@@ -135,7 +135,6 @@ Footer.propTypes = {
   primaryColor: PropTypes.string,
   twitter: PropTypes.string,
   youTube: PropTypes.string,
-
 };
 
 export default Footer;
