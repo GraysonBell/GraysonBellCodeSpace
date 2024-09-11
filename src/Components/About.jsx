@@ -16,9 +16,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/orange.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "orange gradient background";
 
 /**
  * Sort description that expands on your title on the Home component.
@@ -58,9 +58,10 @@ const About = () => {
           padding: "4rem",
           margin: "3rem auto",
           textAlign: "center",
+          borderRadius: "10px",
         }}
       >
-        <h2>About Myself</h2>
+        <h2 style={{ fontWeight: "bold" }}> About Myself</h2>
         <p className="large">{description}</p>
         <hr />
         <ul
@@ -77,7 +78,7 @@ const About = () => {
           ))}
         </ul>
         <hr />
-        <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
+        <p className="large" style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
       </div>
     </section>
   );
