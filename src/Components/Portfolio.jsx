@@ -31,9 +31,10 @@ const imageAltText = "The glroious planet Jupiter";
  */
 const projectList = [
   {
-    title: "Enhanced Tetris Game",
-    description: "Collaboration in a team to create an advanced tetris game.",
-    url: "https://github.com/GraysonBell/Enhanced-Tetris-Game-Development",
+    title: "Australian Record Article",
+    description:
+      "An article about my Australian/Oceania record and my inspiration from Cameron McEvoy.",
+    url: "https://swimswam.com/aussie-record-holder-grayson-bell-draws-inspiration-from-cameron-mcevoy/",
   },
   {
     title: "Text/Video/Chat Application",
@@ -41,14 +42,14 @@ const projectList = [
     url: "",
   },
   {
-    title: "My Resume Site",
-    description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "",
+    title: "Enhanced Tetris Game",
+    description: "Collaboration in a team to create an advanced tetris game.",
+    url: "https://github.com/GraysonBell/Enhanced-Tetris-Game-Development",
   },
   {
     title: "Wikipedia Page",
-    description: "My Wikipedia page that includes my background, experience and more.",
+    description:
+      "My Wikipedia page that includes my background, professional swimming experience and more.",
     url: "https://en.wikipedia.org/wiki/Grayson_Bell",
   },
 ];
